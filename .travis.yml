@@ -7,3 +7,6 @@ before_install:
 
 script:
     - docker run -e CI=true rajathongal/docker-react-app npm run test -- --coverage
+
+deploy:
+    /*it is a secret*/ 
